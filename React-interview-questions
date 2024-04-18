@@ -1,0 +1,12 @@
+1. what is difference between class and function components.
+Function components :
+  --> There is no render method used in functional components.
+  --> Also known as Stateless components
+  --> React lifecycle methods (for example, componentDidMount).
+  --> Hooks can be easily used in functional components to make them Stateful.
+  --> Constructors are not used.
+Class components :
+  --> It must have the render()
+  --> Also known as Stateful components because they implement logic and state.
+  --> React lifecycle methods can be used inside class components (for example, componentDidMount).
+  --> Constructor is used as it needs to store state.
